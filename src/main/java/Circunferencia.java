@@ -4,23 +4,23 @@ import java.lang.Math;
 
 public class Circunferencia {
 
-	//Declaraci髇 e inicializaci髇 de constantes
+	//Declaraci贸n e inicializaci贸n de constantes
 	private static final double PI = 3.1416;
 
-	//Declaraci髇 de atributos de clase (static)
+	//Declaraci贸n de atributos de clase (static)
 	public static int contadorCircunferencias = 0;
 	public static int contadorArea = 0;
 
-	//Declaraci髇 de atributos
+	//Declaraci贸n de atributos
 	private double radio;
 
-	//Declaraci髇 y definici髇 de constructores
+	//Declaraci贸n y definici贸n de constructores
 	public Circunferencia(){
 		this.radio = 0.0;
 		Circunferencia.contadorCircunferencias++;
-		//Notar el uso de la operaci髇 "+" para concatenar cadenas (clase String)
-		//M醩 informaci髇 sobre la clase String en
-		//http://docs.oracle.com/javase/8/docs/api/java/lang/String.html
+		//Notar el uso de la operaci贸n "+" para concatenar cadenas (clase String)
+		//M谩s informaci贸n sobre la clase String en
+		//https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/String.html
     		System.out.println ("El contador de circunf vale " + contadorCircunferencias);
     }
 
@@ -30,7 +30,7 @@ public class Circunferencia {
     		System.out.println ("El contador de circunf vale " + contadorCircunferencias);
     }
 
-    //Declaraci髇 y definici髇 de m閠odos de acceso y modificaci髇
+    //Declaraci贸n y definici贸n de m茅todos de acceso y modificaci贸n
     public double getRadio(){
     	return this.radio;
     }

@@ -1,8 +1,8 @@
 
 
-//La siguiente librer�a contiene funciones para hacer
+//La siguiente librería contiene funciones para hacer
 //lectura desde la consola de MSDOS
-//M�s informaci�n en http://docs.oracle.com/javase/8/docs/api/java/util/Scanner.html
+//Más información en https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/Scanner.html
 
 import java.util.Scanner;
 
