@@ -20,7 +20,7 @@ public class Circunferencia {
 		Circunferencia.contadorCircunferencias++;
 		//Notar el uso de la operación "+" para concatenar cadenas (clase String)
 		//Más información sobre la clase String en
-		//https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/String.html
+		//https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/String.html
     		System.out.println ("El contador de circunf vale " + contadorCircunferencias);
     }
 
