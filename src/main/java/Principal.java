@@ -22,7 +22,7 @@ public class Principal {
 	// "args" es únicamente el identificador que le asignamos;
 	// lo puede elegir el usuario libremente
 
-	public static void main (String [] args){
+	public static void main (String [] foo){
 
 		System.out.println ( );	
 		System.out.println ( "***************************" );
