@@ -22,12 +22,14 @@ public class Principal {
 	// "args" es únicamente el identificador que le asignamos;
 	// lo puede elegir el usuario libremente
 
-	public static void main (String [] foo){
+	public static void main (String [] args){
 
 		System.out.println ( );	
 		System.out.println ( "***************************" );
 		System.out.println ( " Declaración y construcción de objetos en Java : " );
 		System.out.println ( );
+
+
 		
 		//Declaración de un objeto; observa las diferencias con C++:
 		Circunferencia circ_radio_0;
